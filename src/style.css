@@ -1,0 +1,36 @@
+body {
+    background-color: #558898;
+}
+
+.navBar {
+    background-color: #2D93AD;
+}
+
+.navBar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+}
+
+.navBar ul li {
+    padding: 15px;
+}
+
+.btnStyle {
+    background-color: #558899;
+    border-radius: 1px solid;
+    padding: 10px;
+    width: 100px;
+    font-size: large;
+}
+
+.btnStyle:hover {
+    background-color: #5B9F91;
+    transition: .7s;
+}
+
+.cartImg {
+    max-width: 50px;
+}

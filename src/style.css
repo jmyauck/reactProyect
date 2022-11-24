@@ -2,9 +2,6 @@ body {
     background-color: #558898;
 }
 
-.navBar {
-    background-color: #2D93AD;
-}
 
 .navBar ul {
     list-style: none;
@@ -33,4 +30,10 @@ body {
 
 .cartImg {
     max-width: 50px;
+}
+.headerStyle {
+    background-color: #2D93AD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }

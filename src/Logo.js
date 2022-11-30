@@ -1,0 +1,13 @@
+import Logo from './images/ratatoui.jpg'
+import './style.css'
+
+export function Logotipo () {
+    return <div className='logo'>
+        <img src= { Logo } alt="#"></img>
+        <div>
+        <h3>Ratatouille</h3>
+        <h6>Gourmet fast food</h6>
+        </div>
+    </div>
+        
+}

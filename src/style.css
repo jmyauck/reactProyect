@@ -1,6 +1,4 @@
-body {
-    background-color: #558898;
-}
+
 
 
 .navBar ul {
@@ -20,6 +18,7 @@ body {
     padding: 10px;
     width: 100px;
     font-size: large;
+    list-style: none;
 }
 
 .btnStyle:hover {
@@ -45,7 +44,7 @@ body {
     display: flex;
     align-items: center;
     color: #8B7E74;
-    background-color: #bcbcbc17;
+    background-color: rgb(188 188 188,);
 }
 
 .logo img {
@@ -68,13 +67,32 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-/*     background-image: url(./images/banner-food.jpg);
-
-    background-repeat: no-repeat;
-    background-size: 100%; */
 }
 .bannerProd {
     width: 100vw;
     height: 300px;
     object-fit: cover;
+}
+.bannerDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainText {
+    position: absolute;
+    color: #FFFF;
+    font-family: 'Lora', serif;
+    font-size: 60px;
+}
+.containerListProducts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.productosStyle {
+    border: #8B7E74 1px solid;
+    margin: 20px;
 }

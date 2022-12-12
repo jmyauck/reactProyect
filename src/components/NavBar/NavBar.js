@@ -1,7 +1,7 @@
-import '../style.css'
-import { CartImg } from './CartWidget'
-import { Logotipo} from '../components/Logo'
-import {categorias} from '../productos-mock'
+import './navbar.css'
+import { CartImg } from '../CartWidget/CartWidget';
+import { Logotipo} from '../Brand/Brand'
+import {categorias} from '../../productos-mock'
 import { Link } from 'react-router-dom';
 
 function Navbar({categorias}) {
@@ -10,7 +10,7 @@ function Navbar({categorias}) {
         <Logotipo />
         <nav className="navbar navbar-expand-lg bg-light">
 
-        <div className="container-fluid">
+        {<div className="container-fluid">
             {
                 categorias.map((categoria)=>{
                     return <Link to={`category/${categoria.id}`} className='btnStyle'>{categoria.name}</Link>
@@ -29,11 +29,6 @@ function Navbar({categorias}) {
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
                 <li className="nav-item btnStyle">
-                <a className="nav-link" aria-current="page" href="#">
-                    Home
-                </a>
-                </li>
-                <li className="nav-item btnStyle">
                 <a className="nav-link" href="#">
                     Find us
                 </a>
@@ -41,7 +36,7 @@ function Navbar({categorias}) {
 
             </ul>
             </div>
-        </div>
+        </div>}
         <div className='cartBtn'>
             <CartImg />           
         </div>

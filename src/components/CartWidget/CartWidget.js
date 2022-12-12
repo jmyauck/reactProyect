@@ -1,5 +1,5 @@
-import CartWidget from '../images/food-cover.png'
-import '../style.css'
+import CartWidget from './food-cover.png'
+import './cartwidget.css'
 
 
 export function CartImg() {

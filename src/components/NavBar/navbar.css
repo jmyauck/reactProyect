@@ -1,0 +1,23 @@
+.headerStyle {
+    background-color: #bcbcbc17;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Lora', serif;
+}
+.btnStyle {
+    border-radius: 1px solid;
+    padding: 10px;
+    width: 100px;
+    font-size: large;
+    list-style: none;
+}
+.btnStyle:hover {
+    background-color: #C7BCA1;
+    transition: .7s;
+}
+.cartBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

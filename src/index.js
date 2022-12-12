@@ -10,12 +10,4 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
 
     <App/>
-/*     <>
-        <Navbar/>
-        <BannerProd/>
-        <Productos title="Sandwiches"/>
-        <Productos title="Pizzas"/>
-        <Productos title="Picadas"/>        
-        <Productos title="Bebidas"/>
-    </> */
 )

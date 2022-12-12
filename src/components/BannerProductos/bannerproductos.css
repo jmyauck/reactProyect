@@ -1,0 +1,18 @@
+.bannerProd {
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+}
+.bannerDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainText {
+    position: absolute;
+    color: #FFFF;
+    font-family: 'Lora', serif;
+    font-size: 60px;
+}

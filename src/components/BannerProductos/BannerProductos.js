@@ -1,5 +1,5 @@
-import '../style.css'
-import Banner from '../images/banner-food.jpg'
+import './bannerproductos.css'
+import Banner from './banner-food.jpg'
 
 
 export  function BannerProd (props) {

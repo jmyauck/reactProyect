@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
-import '../style.css'
-import {Producto, categorias} from '../productos-mock'
+import {Producto} from '../../productos-mock'
 import { useParams } from 'react-router-dom'
-import { Item } from './Item'
+import { Item } from '../Item/Item'
+import './itemlist.css'
 
-export function Productos () {
+export const ItemList =()=> {
     const [item, setItem] = useState(Producto);
     const {id} = useParams()
 
@@ -19,14 +19,15 @@ export function Productos () {
         CatFilter.then((response)=>{
             setItem(response)
         })
-    },)
+    },[id])
     return (
         <div className='containerListProducts'>
             {
-                item.map((producto)=>{
+                item && item.map((producto)=>{
                     return <Item producto={producto}/>
                 })
             }
         </div>
     )
 }
+

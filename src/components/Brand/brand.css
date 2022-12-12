@@ -1,0 +1,9 @@
+.logo {
+    display: flex;
+    align-items: center;
+    color: #8B7E74;
+    background-color: rgb(188 188 188,);
+}
+.logo img {
+    max-width: 150px;
+}
